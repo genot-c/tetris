@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <script type="application/x-javascript" src="http://10.19.253.100/egraph/egraph.min.js"></script> -->
+    <script type="application/x-javascript" src="../../lib/minilib.js"></script>
+    <script type="application/x-javascript" src="../js/c_display.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_0.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_1.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_2.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_3.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_4.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_5.js"></script>
+    <script type="application/x-javascript" src="../js/c_elem_6.js"></script>
+    <script type="application/x-javascript" src="../js/c_game.js"></script>
+    <script type="application/x-javascript" src="../js/c_origin.js"></script>
+    <script type="application/x-javascript" src="../js/c_piece.js"></script>
+    <script type="application/x-javascript" src="../js/c_score.js"></script>
+    <script type="application/x-javascript" src="../js/c_screen.js"></script>
+    <script type="application/x-javascript" src="../js/elem_add.js"></script>
+    <script type="application/x-javascript" src="../js/elem_col.js"></script>
+    <script type="application/x-javascript" src="../js/elem_del.js"></script>
+    <script type="application/x-javascript" src="../js/elem_drop.js"></script>
+    <script type="application/x-javascript" src="../js/elem_init.js"></script>
+    <script type="application/x-javascript" src="../js/game_anim.js"></script>
+    <script type="application/x-javascript" src="../js/get_square_color.js"></script>
+    <script type="application/x-javascript" src="../js/key_manage.js"></script>
+    <script type="application/x-javascript" src="../js/main.js"></script>
+    <script type="application/x-javascript" src="../js/my_usleep.js"></script>
+    <script type="application/x-javascript" src="../js/new_map.js"></script>
+    <script type="application/x-javascript" src="../js/pause.js"></script>
+    <style>
+      body {
+      background-color:	#282828;
+      }
+      #win {
+      display:		block;
+      padding-top:	24px;
+      position:		absolute;
+      margin-left:	auto;
+      margin-right:	auto;
+      top:		0px;
+      bottom:		0px;
+      left:		0px;
+      right:		0px;
+      }
+      .part_hi_score {
+      float:		left;
+      padding-top:	24px;
+      width:		480px;
+      height:		800px;
+      }
+      .part_game {
+      float:		left;
+      padding-top:	24px;
+      width:		640px;
+      height:		800px;
+      }
+      .part_controls {
+      float:		left;
+      padding-top:	24px;
+      width:		480px;
+      height:		800px;
+      }
+      h2 {
+      display:		block;
+      position:		absolute;
+      left:		0px;
+      width:		100%;
+      font-size:	40px;
+      font-family:	edosz, sans-serif;
+      color:		#DDDDDD;
+      }
+      @font-face {
+      font-family:	'edosz';
+      src:		url('../../fonts/EDOSZ/edosz.ttf') format('truetype');
+      font-weight:	normal;
+      font-style:	normal;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div style="width:1600px;margin:0 auto">
+
+      <div class="part_hi_score">
+      	<img src="../../media/COMMANDS.png" style="display:block;margin:auto;padding-top:192px;visibility:hidden">
+      </div>
+
+      <div class="part_game">
+	<script src="../js/main.js" onload="main()" style="z-index:-1"></script>
+	<img src="../../media/GRID.png" style="display:block;margin-left:auto;margin-right:auto;padding-top:24px;position:absolute;top:0px;left:0px;bottom:0px;right:0px;z-index:1">
+	<img src="../../media/LOOSE.png" style="display:block;margin-left:auto;margin-right:auto;padding-top:288px;position:absolute;top:0px;left:0px;bottom:0px;right:0px;z-index:2;visibility:hidden" id="loose_label">
+      </div>
+
+      <div class="part_controls">
+	<div class="image">
+	  <img src="../../media/SCORE.png" style="position:relative;display:block;margin:auto;padding-top:24pxz-index:-1;">
+	  <h2 style="top:19px;left:1432px;width:216px;text-align:right;letter-spacing:2px;" id="p_score">0</h2>
+	  <h2 style="top:92px;left:1432px;width:216px;text-align:right;letter-spacing:2px;" id="p_level">1</h2>
+	</div>
+	<img src="../../media/COMMANDS.png" style="display:block;margin:auto;padding-top:64px">
+      </div>
+
+    </div>
+
+  </body>
+</html>

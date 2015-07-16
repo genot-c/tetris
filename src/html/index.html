@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>--- Epi'TETRIS ---</title>
+    <style>
+      body {
+      background-color:	#282828;
+      }
+      .align_button {
+      margin-top:	80px;
+      margin-left:	auto;
+      margin-right:	auto;
+      text-align:	center;
+      }
+      .start_button {
+      width:		640px;
+      height:		88px;
+      margin-top:	16px;
+      border-radius:	4px;
+      border:		2px;
+      font-size:	35px;
+      font-family:	edosz, sans-serif;
+      color:		#EEEEEE;
+      background-color:	#353535;
+      }
+      .start_button:hover {
+      color:		#DDDDDD;
+      background-color:	#404040;
+      }
+      .part_start {
+      margin:		96px auto;
+      width:		800px;
+      }
+      h2 {
+      display:		block;
+      position:		absolute;
+      left:		0px;
+      width:		320px;
+      font-family:	edosz, sans-serif;
+      color:		#DDDDDD;
+      text-align:	center;
+      letter-spacing:	2px;
+      }
+      @font-face {
+      font-family:	'edosz';
+      src:		url('../../fonts/EDOSZ/edosz.ttf') format('truetype');
+      font-weight:	normal;
+      font-style:	normal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="part_start">
+      <img src="../../media/TITLE.png" style="display:block;margin:auto">
+      <form class="align_button">
+	<input class="start_button" type="button" onClick="location.href='game.html?level=1'" value="i like it slow !" id="beginner">
+	<input class="start_button" type="button" onClick="location.href='game.html?level=2'" value="i'm a semi advanced beginner !" id="medium">
+	<input class="start_button" type="button" onClick="location.href='game.html?level=3'" value="i'm a Tetris master !" id="hard">
+      </form>
+    </div>
+  </body>
+</html>
