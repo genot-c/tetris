@@ -75,7 +75,7 @@ function	my_keyboard(key, game)
     else if (!g_pause && key == 39)
 	key_right(game);
     else if (key == 81)
-	window.location = "index.html";
+	window.location = "./../../index.html";
     else if (key == 32)
 	key_space(game);
     return (0);

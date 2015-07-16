@@ -5,7 +5,7 @@ function	display_image()
 
 c_piece.prototype.end = function()
 {
-    window.location = "index.html";
+    window.location = "./../../index.html";
 }
 
 c_display.prototype.anim_end = function()

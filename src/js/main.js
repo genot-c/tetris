@@ -18,7 +18,7 @@ function	check_error_url(level_url)
     else if (level_url < '1' || level_url > '3')
     {
 	alert('/!\\ Problem in the url.');
-	window.location = "index.html";
+	window.location = "./../../index.html";
 	return (1);
     }
     return (0);
